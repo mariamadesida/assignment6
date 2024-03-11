@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v1
         with:
           username: ${{ secrets.MARIAMADESIDA }}
-          password: ${{ secrets.LATIFAT23! }}
+          password: ${{ secrets.LATIFAT23 }}
 
       - name: Build and push container
         run: |
