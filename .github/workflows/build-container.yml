@@ -15,8 +15,8 @@ jobs:
       - name: Login to Docker registry
         uses: docker/login-action@v1
         with:
-          username: $ mariamadesida
-          password: $ Latifat23!
+          username: $ MARIAMADESIDA
+          password: $ LATIFAT23!
 
       - name: Build and push container
         run: |
